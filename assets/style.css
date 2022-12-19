@@ -1,0 +1,72 @@
+
+#titleContainer{
+    display: flex;
+    flex-direction: column;
+}
+#todayDateHeader{
+    text-align: center;
+    color: green;
+}
+.title{
+    color: darkblue;
+    font-size: 50px;
+    align-self: center;
+}
+#description{
+    align-self: center;
+}
+#hourBlockContainer{
+    
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+.hourBlocks{   
+    min-height: 100px;
+    border: black;
+    border: 1px;
+    
+    margin-bottom: 2px;
+    flex-basis: 100%;    
+}
+.hourContainer{
+    
+    display: flex;
+    
+    list-style: none;
+}
+.hours{
+    text-align: center;
+    flex-basis: 15%;
+    border-top: 1px;
+
+    border-top-style: dashed;
+}
+.userActivity{
+    background-color: inherit;
+    line-height: 50px;
+    border-style: solid;
+  text-align: center;
+    flex-grow: 1;
+}
+.saveButton{
+    text-decoration: underline;
+    font-weight: bold;
+    flex-basis: 5%;
+    background-color: rgb(164, 101, 196);
+}
+
+.saveButton:hover{
+    background-color: darkorchid;
+}
+
+.present{
+    background-color: lightblue;
+}
+.past{
+    background-color: lightgray;
+}
+.future{
+    background-color: lightgreen;
+}
