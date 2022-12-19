@@ -4,7 +4,7 @@
 A daily planner for a busy worker
 
 ## Screenshot
-![picture of web page](https://xavionstar.github.io/Daily-Grind/blob/main/assets/daily-grind.png?raw=true)
+![picture of web page](https://github.com/Xavionstar/Daily-Grind/Daily-Grind/blob/main/assets/daily-grind.png?raw=true)
 
 
 ## Link
